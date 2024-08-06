@@ -1,5 +1,5 @@
-compile = "javac -classpath .:target/dependency/* -d . $(find . -type f -name '*.java')"
-run = "java -classpath .:target/dependency/* Main"
+compile = "mvn compile"
+run = "mvn test"
 entrypoint = "Main.java"
 hidden = ["**/*.class"]
 
@@ -25,7 +25,7 @@ channel = "stable-22_05"
 support = true
 
 [debugger.compile]
-command = "javac -classpath .:/run_dir/junit-4.12.jar:target/dependency/* -g -d . $(find . -type f -name '*.java')"
+command = "mvn compile"
 
 [debugger.interactive]
 transport = "localhost:0"

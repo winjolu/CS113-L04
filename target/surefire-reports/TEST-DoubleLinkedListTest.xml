@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="DoubleLinkedListTest" time="0.883" tests="38" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/runner/CS113-L04/target/test-classes:/home/runner/CS113-L04/target/classes:/home/runner/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/runner/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/home/runner/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="GraalVM Community"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://www.graalvm.org/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/nix/store/nfyj24p265scn3zp0pk0fm4rr5g7s2pf-graalvm17-ce-22.1.0/lib"/>
+    <property name="sun.java.command" value="/home/runner/CS113-L04/target/surefire/surefirebooter11010339218175531779.jar /home/runner/CS113-L04/target/surefire 2024-08-06T22-00-59_107-jvmRun1 surefire16972282032592473437tmp surefire_03392263311791849913tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/runner/CS113-L04/target/test-classes:/home/runner/CS113-L04/target/classes:/home/runner/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/runner/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/home/runner/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/runner"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.home" value="/nix/store/nfyj24p265scn3zp0pk0fm4rr5g7s2pf-graalvm17-ce-22.1.0"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/runner/CS113-L04"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="jdk.internal.vm.ci.enabled" value="true"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/runner/CS113-L04/target/surefire/surefirebooter11010339218175531779.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.3+7-jvmci-22.1-b06"/>
+    <property name="user.name" value="runner"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.5.0-1025-gcp"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="GraalVM CE 22.1.0"/>
+    <property name="localRepository" value="/home/runner/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/oracle/graal/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.3"/>
+    <property name="user.dir" value="/home/runner/CS113-L04"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/nix/store/z7ff1q791ar3ghh8fcmiblaq654sw220-cups-2.4.2-lib/lib:/nix/store/yvzlx032kf9kn507y7iyrqxspfypvnnr-cairo-1.16.0/lib:/nix/store/s7yq6ngnxf4gsp4263q7xywfjihh5mpn-glib-2.72.2/lib:/nix/store/sqhmx15c0ici7qsy4ambqhkic76pc7fq-gtk+3-3.24.34/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="GraalVM Community"/>
+    <property name="java.vm.version" value="17.0.3+7-jvmci-22.1-b06"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testAddingOneBySize" classname="DoubleLinkedListTest" time="0.008"/>
+  <testcase name="testAddingThreeByToString" classname="DoubleLinkedListTest" time="0.001"/>
+  <testcase name="testGetError" classname="DoubleLinkedListTest" time="0.001"/>
+  <testcase name="testNewLinkedListByToString" classname="DoubleLinkedListTest" time="0"/>
+  <testcase name="testGet" classname="DoubleLinkedListTest" time="0.001"/>
+  <testcase name="testSet" classname="DoubleLinkedListTest" time="0"/>
+  <testcase name="testIteratorRemove" classname="DoubleLinkedListTest" time="0.007"/>
+  <testcase name="testInsertingByToString" classname="DoubleLinkedListTest" time="0.001"/>
+  <testcase name="testClear" classname="DoubleLinkedListTest" time="0.001"/>
+  <testcase name="testLastIndexOf" classname="DoubleLinkedListTest" time="0.001"/>
+  <testcase name="testIteratorNextIndex" classname="DoubleLinkedListTest" time="0"/>
+  <testcase name="testRemoveByIndex" classname="DoubleLinkedListTest" time="0.001"/>
+  <testcase name="testRemoveByValue" classname="DoubleLinkedListTest" time="0.004"/>
+  <testcase name="testIteratorRemoveError" classname="DoubleLinkedListTest" time="0.004"/>
+  <testcase name="testIndexOfRepeats" classname="DoubleLinkedListTest" time="0.001"/>
+  <testcase name="testIteratorHasNext" classname="DoubleLinkedListTest" time="0.004"/>
+  <testcase name="testAddingThreeBySize" classname="DoubleLinkedListTest" time="0"/>
+  <testcase name="testRemoveErrors" classname="DoubleLinkedListTest" time="0"/>
+  <testcase name="testIteratorSetError" classname="DoubleLinkedListTest" time="0.001"/>
+  <testcase name="testContains" classname="DoubleLinkedListTest" time="0.001"/>
+  <testcase name="testAddingOneByToString" classname="DoubleLinkedListTest" time="0.001"/>
+  <testcase name="testIteratorNextErrors" classname="DoubleLinkedListTest" time="0.004"/>
+  <testcase name="testIteratorConstructorsErrors" classname="DoubleLinkedListTest" time="0"/>
+  <testcase name="testIteratorAdd" classname="DoubleLinkedListTest" time="0"/>
+  <testcase name="testIteratorSet" classname="DoubleLinkedListTest" time="0.004"/>
+  <testcase name="testNewLinkedListBySize" classname="DoubleLinkedListTest" time="0"/>
+  <testcase name="testIteratorConstructors" classname="DoubleLinkedListTest" time="0"/>
+  <testcase name="testIteratorPreviousIndex" classname="DoubleLinkedListTest" time="0.041"/>
+  <testcase name="testIteratorHasPrevious" classname="DoubleLinkedListTest" time="0.001"/>
+  <testcase name="testEquals" classname="DoubleLinkedListTest" time="0"/>
+  <testcase name="testLastIndexOfRepeats1" classname="DoubleLinkedListTest" time="0.001"/>
+  <testcase name="testLastIndexOfRepeats2" classname="DoubleLinkedListTest" time="0.003"/>
+  <testcase name="testIndexOf" classname="DoubleLinkedListTest" time="0"/>
+  <testcase name="testIteratorNext" classname="DoubleLinkedListTest" time="0"/>
+  <testcase name="testIteratorPrevious" classname="DoubleLinkedListTest" time="0"/>
+  <testcase name="testIteratorPreviousErrors" classname="DoubleLinkedListTest" time="0"/>
+  <testcase name="testErrorsIndexOfLastIndexOf" classname="DoubleLinkedListTest" time="0"/>
+  <testcase name="testSetError" classname="DoubleLinkedListTest" time="0"/>
+</testsuite>
